@@ -14,6 +14,11 @@ header h2 {
     color: #CEC8FF;
 }
 
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
 .jumbotron {
     margin: 0;
     padding: 30px;
