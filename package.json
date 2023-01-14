@@ -7,7 +7,7 @@
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
- },
+  },
   "author": "Darshil Patel",
   "license": "ISC",
   "devDependencies": {
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
