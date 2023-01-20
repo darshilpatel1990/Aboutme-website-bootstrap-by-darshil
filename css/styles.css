@@ -1,9 +1,9 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", "Open Sans", sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: "Open Sans", cursive;
 }
 
 h2 {
@@ -31,3 +31,8 @@ header h2 {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
+
+.card-title {
+    font-weight: bold;
+}
+
