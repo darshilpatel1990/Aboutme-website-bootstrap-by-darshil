@@ -1,17 +1,14 @@
 body {
     font-family: "Roboto", "Open Sans", sans-serif;
+    background-color: #eeece9;
 }
 
 h1, h2, h3 {
     font-family: "Open Sans", cursive;
 }
 
-h2 {
+h1, h2 {
     color: #3046C5;
-}
-
-header h2 {
-    color: #CEC8FF;
 }
 
 .site-footer {
@@ -20,10 +17,11 @@ header h2 {
 }
 
 .jumbotron {
+    background-color: #eeece9;
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
+    /* background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B); 
+    color: white; */
 }
 
 .row-content {
@@ -36,3 +34,7 @@ header h2 {
     font-weight: bold;
 }
 
+.carousel-inner .carousel-item img {
+    width:640px; 
+    height:360px;
+}
