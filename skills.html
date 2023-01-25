@@ -9,11 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="css/styles.css" />
+   <!-- Additional CSS must be placed after Bootstrap CSS -->
+   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Roboto|Ubuntu|Pacifico" />
+   <link rel="stylesheet" href="css/styles.css" />
 
     <title>darshilpatel.com</title>
 </head>
@@ -22,16 +22,16 @@
 
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
-            <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dpNavbar">
+            <nav class="navbar navbar-expand-md navbar-light sticky-top">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#dpNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="dpNavbar">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="#">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="funfacts.html">FunFacts</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactme.html">Contact</a></li>
+                        <li class="nav-item ml-auto"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item ml-auto active"><a class="nav-link" href="#">Skills</a></li>
+                        <li class="nav-item ml-auto"><a class="nav-link" href="funfacts.html">FunFacts</a></li>
+                        <li class="nav-item ml-auto"><a class="nav-link" href="contactme.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -44,56 +44,74 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 my-4">
-                <div class="card ">
+    <div class="container mt-5">
+        <div class="row row-content">
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <h2>Skills & Experience</h2>
+                <br/>
+                <p>Since beginning my journey as Software Developer, I have built some websites for local businesses as freelancer.</p>
+                <p>I create unique, successful, responsive websites that are fast, user-friendly. The main area of my expertise is front-end development with JS, HTML, CSS, building small to medium websites and mobile apps.</p>
+                <p>I also have some back-end developer experience with Python, SQL and DevOps.</p>
+                <p>Visit my LinkedIn profile for more details or <a href="contactme.html">contact</a> me.</p>
+            </div>
+            <div class="col-12 col-lg-6 align-self-center">
+                <div class="card">
+                    <canvas id="skillChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-md-6 mt-2">
+                <div class="card cardSkills">
                     <div class="card-body">
-                        <h5 class="card-title">Programming languages</h5>
+                        <h5 class="card-title"><span>Programming</span> & style languages</h5>
                         <ul class="card-text">
                             <li>JavaScript</li>
                             <li>Python</li>
                             <li>SQL</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 my-4">
-                <div class="card">
+            <div class="col-md-6 mt-2">
+                <div class="card cardSkills">
                     <div class="card-body">
                         <h5 class="card-title">Experience</h5>
                         <ul class="card-text">
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
+                            <li>lorem ipsum</li>
+                            <li>lorem ipsum</li>
+                            <li>lorem ipsum</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6 my-4">
+ 
+        <div class="row row-content">
+            <div class="col-sm-6">
                 <div class="text-align-center">
-                    <h5><strong>Certificates</strong> (downloadable)</h5>
+                    <h5><i class="fa fa-certificate"></i><strong> Certificates</strong><br/>(downloadable)</h5>
                     <ul>
-                        <li><a href="/documents/Backend, SQL and DevOps with Python Development Certificate.pdf" alt="Nucamp Backend Developer certificate" download>Back-End Developer</a>
+                        <li><a href="/documents/Backend_Certificate.pdf" alt="Nucamp Backend Developer certificate" download>Back-End Developer</a>
                         </li>
-                        <li><a href="#" alt="Nucamp Frontend Developer certificate" download>Front-End Developer</a>
+                        <li><a href="/documents/frontend_developer.pdf" alt="Nucamp Frontend Developer certificate" download>Front-End Developer</a>
                         </li>
-                        <li><a href="/documents/HTML, CSS and JavaScript - Course Certificate.pdf" alt="Nucamp Web Development Fundamentals certificate" download>Web Development Fundamentals</a>
+                        <li><a href="/documents/webdev_fundamentals.pdf" alt="Nucamp Web Development Fundamentals certificate" download>Web Development Fundamentals</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-6 my-4">
+            <div class="col-sm-6">
                 <div class="text-align-center">
-                    <h5>Certificates</h5>
+                    <h5><i class="fa fa-briefcase"></i> Job related documents<br/>(downloadable)</h5>
                     <ul>
-                        <li><a href="/documents/Backend, SQL and DevOps with Python Development Certificate.pdf" alt="Nucamp Backend Developer certificate" download>Back-End Developer</a>
+                        <li><a href="/documents/Resume.pdf" alt="Darshil resume" download>Resume</a>
                         </li>
-                        <li><a href="#" alt="Nucamp Frontend Developer certificate" download>Front-End Developer</a>
+                        <li><a href="/documents/coverletter.pdf" alt="Darshil cover letter" download>Cover letter</a>
                         </li>
-                        <li><a href="/documents/HTML, CSS and JavaScript - Course Certificate.pdf" alt="Nucamp Web Development Fundamentals certificate" download>Web Development Fundamentals</a>
+                        <li><a href="/documents/reference_letter.pdf" alt="Reference letter" download>Reference letter</a>
                         </li>
                     </ul>
                 </div>
@@ -130,6 +148,9 @@
                     <a role="button" class="btn btn-link" href="mailto:darshilpatel1990@gmail.com"><i
                             class="fa fa-envelope-o fa-lg text-primary"></i> darshilpatel1990@gmail.com</a>
                 </div>
+                <div class="col-12">
+                    <h6 class="text-center">Copyright © 2023 dp</h6>
+                </div>
             </div>
         </div>
     </footer>
@@ -137,6 +158,8 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 

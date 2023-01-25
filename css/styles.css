@@ -1,10 +1,14 @@
 body {
     font-family: "Roboto", "Open Sans", sans-serif;
-    background-color: #eeece9;
+    background-color: #fdce86;
 }
 
-h1, h2, h3 {
-    font-family: "Open Sans", cursive;
+h1 {
+    font-family: "Pacifico";
+}
+
+h2, h3 {
+    font-family: "Ubuntu", cursive;
 }
 
 h1, h2 {
@@ -17,11 +21,20 @@ h1, h2 {
 }
 
 .jumbotron {
-    background-color: #eeece9;
+    background-color: #fdce86;
     margin: 0;
     padding: 30px;
     /* background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B); 
     color: white; */
+}
+
+.nav-link {
+    color: #75056c;
+}
+
+.navbar-nav > .active > .nav-link {
+    color: black;
+    border-bottom: 1px solid rgb(119, 116, 116);
 }
 
 .row-content {
@@ -30,11 +43,51 @@ h1, h2 {
     min-height: 200px;
 }
 
+/* Home page */
+
 .card-title {
     font-weight: bold;
 }
 
+.cardHome:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*  Skill page */
+
+.cardSkills {
+    background-color: #fae06b;
+    height: 100%;
+    width: 80%;
+    padding: 2px 16px;
+}
+
+#skillChart {
+    width:100%;
+    max-width:700px;
+}
+
+/*  Funfact page */
+
 .carousel-inner .carousel-item img {
     width:640px; 
     height:360px;
+}
+
+#imgFun {
+    max-width: 350px;
+    max-height: 350px;
+    width: 50%;
+    height: 60%;
+}
+
+#textFun {
+    font-size: large;
+    font-weight: 500;
+}
+
+/* Contactme page */
+
+iframe {
+    border-radius: 3px;
 }

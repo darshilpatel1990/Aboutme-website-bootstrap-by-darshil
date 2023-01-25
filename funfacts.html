@@ -12,7 +12,7 @@
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Roboto|Ubuntu|Pacifico" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>darshilpatel.com</title>
@@ -22,16 +22,16 @@
 
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
-            <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dpNavbar">
+            <nav class="navbar navbar-expand-md navbar-light sticky-top">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#dpNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="dpNavbar">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="#">FunFacts</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactme.html">Contact</a></li>
+                        <li class="nav-item ml-auto"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item ml-auto"><a class="nav-link" href="skills.html">Skills</a></li>
+                        <li class="nav-item ml-auto active"><a class="nav-link" href="#">FunFacts</a></li>
+                        <li class="nav-item ml-auto"><a class="nav-link" href="contactme.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -44,8 +44,24 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container mt-4">
         <div class="row row-content">
+            <div class="col">
+                <div class="media">
+                    <img id="imgFun" class="d-flex img-fluid" src="img/myjourney.png" alt="my journey image" />
+                    <div id="textFun" class="media-body ml-5 align-self-center">
+                        <h3>my journey</h3>
+                        <br/>
+                        <p>- born in India, lives in Canada<br/>- worked as pharmacy technician before becoming <strong>Software developer</strong><br/>- studied Full-stack and Backend developer course at NuCamp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-12 mb-3">
+                <h3 class="text-center">along the way...</h3>
+            </div>
             <div class="col-md-8 mx-auto">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -75,10 +91,36 @@
                 </div>
             </div>
         </div>
+
         <div class="row row-content">
-
+            <div class="col-12">
+                <h3 class="text-center mb-3">Hobbies</h3>
+            </div>
+            <div class="cardFun col-6 col-sm-3 p-2">
+                <img class="card-img-top" src="img/travel.png" alt="Travel image">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Travel</h5>
+                </div>
+            </div>
+            <div class="cardFun col-6 col-sm-3 p-2">
+                <img class="card-img-top" src="img/cricket1.png" alt="Cricket sport image">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Playing cricket</h5>
+                </div>
+            </div>
+            <div class="cardFun col-6 col-sm-3 p-2">
+                <img class="card-img-top" src="img/reading3.png" alt="Reading image">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Reading</h5>
+                </div>
+            </div>
+            <div class="cardFun col-6 col-sm-3 p-2">
+                <img class="card-img-top" src="img/reading3.png" alt="Reading image">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Reading</h5>
+                </div>
+            </div>
         </div>
-
     </div>
 
     <footer class="site-footer">
@@ -110,6 +152,9 @@
                     <a role="button" class="btn btn-link" href="mailto:darshilpatel1990@gmail.com"><i
                             class="fa fa-envelope-o fa-lg text-primary"></i> darshilpatel1990@gmail.com</a>
                 </div>
+                <div class="col-12">
+                    <h6 class="text-center">Copyright © 2023 dp</h6>
+                </div>
             </div>
         </div>
     </footer>
@@ -117,6 +162,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
