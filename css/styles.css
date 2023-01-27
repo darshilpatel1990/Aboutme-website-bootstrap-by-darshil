@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", "Open Sans", sans-serif;
-    background-color: #fdce86;
+    background-color: #ffecc3;
+    font-size: large;
 }
 
 h1 {
@@ -8,24 +9,29 @@ h1 {
 }
 
 h2, h3 {
-    font-family: "Ubuntu", cursive;
+    font-family: "Pacifico", "Open Sans", sans-serif;
 }
 
-h1, h2 {
-    color: #3046C5;
+.bodyh2, .bodyh3 {
+    font-family: "Ubuntu", cursive;
+    color: rgb(103, 31, 112);
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#fad178, rgb(248, 233, 201));
     padding: 20px 0;
 }
 
 .jumbotron {
-    background-color: #fdce86;
+    background-color: #ffecc3;
     margin: 0;
     padding: 30px;
     /* background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B); 
     color: white; */
+}
+
+#nameHeader:hover {
+    text-decoration: none;
 }
 
 .nav-link {
@@ -43,7 +49,17 @@ h1, h2 {
     min-height: 200px;
 }
 
+.linkfont {
+    padding: 4px;
+}
+
 /* Home page */
+
+#imgProfile {
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+}
 
 .card-title {
     font-weight: bold;
@@ -53,10 +69,14 @@ h1, h2 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+#nucampWeb:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 /*  Skill page */
 
 .cardSkills {
-    background-color: #fae06b;
+    background-color: #facd6b;
     height: 100%;
     width: 80%;
     padding: 2px 16px;
@@ -74,6 +94,10 @@ h1, h2 {
     height:360px;
 }
 
+.carousel-inner {
+    border-radius: 15px;
+}
+
 #imgFun {
     max-width: 350px;
     max-height: 350px;
@@ -86,7 +110,16 @@ h1, h2 {
     font-weight: 500;
 }
 
+.imgHobby {
+    width: 80%;
+    height: fit-content;
+}
+
 /* Contactme page */
+
+#contactBtn {
+    border-radius: 20px;
+}
 
 iframe {
     border-radius: 3px;
