@@ -9,11 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-   <!-- Additional CSS must be placed after Bootstrap CSS -->
-   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Roboto|Ubuntu|Pacifico" />
-   <link rel="stylesheet" href="css/styles.css" />
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Roboto|Ubuntu|Pacifico" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>darshilpatel.com</title>
 </head>
@@ -36,9 +36,11 @@
                 </div>
             </nav>
             <div class="row">
+                <div class="col-2 col-lg-1">
+                    <a href="index.html"><img id="imgLogo" src="img/Whitelogo.png" class="img-fluid" /></a>
+                </div>
                 <div class="col">
-                    <h1><a id="nameHeader" href="index.html" style="color:#3046C5;">Darshil Patel</a></h1>
-                    <h3>Software developer</h3>
+                    <h1 class="mt-2 text-left"><a id="nameHeader" href="index.html">Darshil Patel</a></h1>
                 </div>
             </div>
         </div>
@@ -46,70 +48,113 @@
 
     <div class="container mt-5">
         <div class="row row-content">
-            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+            <div class="col-12 col-md-6">
                 <h3 class="bodyh3">Skills & Experience</h3>
-                <br/>
-                <p>Since beginning my journey as Software Developer, I have built some websites for local businesses as freelancer.</p>
-                <p>I create unique, successful, responsive websites that are fast, user-friendly. The main area of my expertise is front-end development with JavaScript, HTML, CSS, building small to medium websites and mobile apps.</p>
+                <br />
+                <p>Since beginning my journey as Software Developer, I have built some websites for local businesses as
+                    freelancer.</p>
+                <p>I create unique, successful, responsive websites that are fast, user-friendly. The main area of my
+                    expertise is front-end development with JavaScript, HTML, CSS, building small to medium websites and
+                    mobile apps.</p>
                 <p>I also have some back-end developer experience with Python, SQL and DevOps.</p>
-                <p>Visit my <a href="https://www.linkedin.com/in/darshil-patel-7b7611252/">LinkedIn</a> profile for more details or <a href="contactme.html">contact</a> me.</p>
+                <p>Visit my <a class="textlink" href="https://www.linkedin.com/in/darshil-patel-7b7611252/">LinkedIn</a> profile for more
+                    details or <a class="textlink" href="contactme.html">contact</a> me.</p>
             </div>
-            <div class="col-12 col-lg-6 align-self-center">
-                <div class="card">
-                    <canvas id="skillChart"></canvas>
-                </div>
+            <div class="col-12 col-md-6">
+                <img id="imgSkills" src="img/softwaredev_skills.png" class="img-fluid" alt="Software development skills image"/>
             </div>
         </div>
-        <div class="row row-content">
-            <div class="col-md-6 mt-2">
-                <div class="card cardSkills">
+
+        <div class="row no-gutters mb-5">
+            <div class="col col-md-4 ">
+                <div class="card cardskills text-center">
+                    <div class="card-header">
+                        Frontend Developer
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title"><span>Programming</span> & style languages</h5>
-                        <ul class="card-text">
-                            <li>JavaScript</li>
-                            <li>Python</li>
-                            <li>SQL</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
+                        <p>I like to code from scratch and like to bring new ideas to websites.</p>
+                        <br />
+                        <p class="card-text">Frontend Languages I use for coding:</p>
+                        <p>JavaScript, HTML, CSS</p>
+                        <br />
+                        <p class="card-text">Dev tools:</p>
+                        <p>Bootstrap</p>
+                        <p>Github</p>
+                        <p>Sass</p>
+                        <p>React</p>
+                        <p>React native</p>
+                        <p>Jquery</p>
+                        <p>Codepen</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mt-2">
-                <div class="card cardSkills">
+            <div class="col-md-4">
+                <div class="card cardskills text-center">
+                    <div class="card-header">
+                        Backend Developer
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">Experience</h5>
-                        <ul class="card-text">
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum</li>
-                        </ul>
+                        <p>I like to build and maintain the mechanisms that process data and perform
+                            actions on websites.</p>
+                        <br />
+                        <p class="card-text">Backend Languages I use for coding:</p>
+                        <p>JavaScript, Python, SQL</p>
+                        <br />
+                        <p class="card-text">Dev tools:</p>
+                        <p>Django</p>
+                        <p>MongoDB</p>
+                        <p>MySQL</p>
+                        <p>Docker</p>
+                        <p>Kubernetes</p>
+                        <p>Insomnia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card cardskills text-center">
+                    <div class="card-header">
+                        Web Designer
+                    </div>
+                    <div class="card-body">
+                        <p>I like to make unique yet user friendly web designs.</p>
+                        <br />
+                        <p class="card-text">Things I design:</p>
+                        <p>Web, App, Logos</p>
+                        <br />
+                        <p class="card-text">Design tools:</p>
+                        <p>Font Awesome</p>
+                        <p>Sketch</p>
+                        <p>Figma</p>
+                        <p>Moqups</p>
+                        <p>Proto.io</p>
                     </div>
                 </div>
             </div>
         </div>
- 
+        
         <div class="row row-content">
             <div class="col-sm-6">
                 <div class="text-align-center">
-                    <h5><i class="fa fa-certificate"></i><strong> Certificates</strong><br/>(downloadable)</h5>
+                    <h5><i class="fa fa-certificate"></i><strong> Certificates</strong><br />(downloadable)</h5>
                     <ul>
-                        <li><a href="/documents/Backend_Certificate.pdf" alt="Nucamp Backend Developer certificate" download>Back-End Developer</a>
+                        <li><a href="/documents/Backend_Certificate.pdf" alt="Nucamp Backend Developer certificate"
+                                download>Back-End Developer</a>
                         </li>
-                        <li><a href="/documents/frontend_developer.pdf" alt="Nucamp Frontend Developer certificate" download>Front-End Developer</a>
+                        <li><a href="/documents/frontend_developer.pdf" alt="Nucamp Frontend Developer certificate"
+                                download>Front-End Developer</a>
                         </li>
-                        <li><a href="/documents/webdev_fundamentals.pdf" alt="Nucamp Web Development Fundamentals certificate" download>Web Development Fundamentals</a>
+                        <li><a href="/documents/webdev_fundamentals.pdf"
+                                alt="Nucamp Web Development Fundamentals certificate" download>Web Development
+                                Fundamentals</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="text-align-center">
-                    <h5><i class="fa fa-briefcase"></i> Job related documents<br/>(downloadable)</h5>
+                    <h5><i class="fa fa-briefcase"></i> Job related documents<br />(downloadable)</h5>
                     <ul>
                         <li><a href="/documents/Resume.pdf" alt="Darshil resume" download>Resume</a>
-                        </li>
-                        <li><a href="/documents/coverletter.pdf" alt="Darshil cover letter" download>Cover letter</a>
                         </li>
                         <li><a href="/documents/reference_letter.pdf" alt="Reference letter" download>Reference letter</a>
                         </li>
@@ -131,14 +176,20 @@
                     </ul>
                 </div>
                 <div class="socialicon col-5 col-sm-5 col-md-5 text-center">
-                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/darshil.patel.332"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/darshil-patel-7b7611252/"><i class="fa fa-linkedin"></i></a>
-                    <a class="btn btn-social-icon btn-github" href="https://github.com/darshilpatel1990"><i class="fa fa-github"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/@darshilpatel23"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/darshil.patel.332"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-linkedin"
+                        href="https://www.linkedin.com/in/darshil-patel-7b7611252/"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-github" href="https://github.com/darshilpatel1990"><i
+                            class="fa fa-github"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/@darshilpatel23"><i
+                            class="fa fa-twitter"></i></a>
                 </div>
                 <div class="col-3 col-sm-3 col-md-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+12042186227" style="color:black;"><i class="fa fa-phone text-dark"></i> Phone</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:darshilpatel1990@gmail.com" style="color:black;"><i class="fa fa-envelope-o text-dark"></i> Email</a>
+                    <a role="button" class="btn btn-link" href="tel:+12042186227" style="color:black;"><i
+                            class="fa fa-phone text-dark"></i> Phone</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:darshilpatel1990@gmail.com"
+                        style="color:black;"><i class="fa fa-envelope-o text-dark"></i> Email</a>
                 </div>
                 <!-- <div class="col-12">
                     <h6 class="text-right">Copyright © 2023 dp</h6>

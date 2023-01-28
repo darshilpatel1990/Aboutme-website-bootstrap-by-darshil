@@ -1,7 +1,10 @@
+/* GENERAL CONTENT */
+
 body {
     font-family: "Roboto", "Open Sans", sans-serif;
     background-color: #ffecc3;
     font-size: large;
+    color: black;
 }
 
 h1 {
@@ -26,11 +29,14 @@ h2, h3 {
     background-color: #ffecc3;
     margin: 0;
     padding: 30px;
-    /* background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B); 
-    color: white; */
 }
 
-#nameHeader:hover {
+#nameHeader {
+    color: #283477;
+    text-decoration: none;
+}
+
+.textlink:hover {
     text-decoration: none;
 }
 
@@ -40,12 +46,15 @@ h2, h3 {
 
 .navbar-nav > .active > .nav-link {
     color: black;
-    border-bottom: 1px solid rgb(119, 116, 116);
+    border-bottom: 1px solid rgb(99, 98, 98);
+}
+
+.navbar {
+    font-size: medium;
 }
 
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
     min-height: 200px;
 }
 
@@ -56,9 +65,16 @@ h2, h3 {
 /* Home page */
 
 #imgProfile {
+    border: 0.25em solid #ffecc3;
+    border-radius: 10%;
     width: 100%;
-    height: 80%;
-    border-radius: 50%;
+    height: 75%;
+}
+
+#imgLogo {
+    float: left;
+    max-width: 4em;
+    max-height: 4em;
 }
 
 .card-title {
@@ -69,17 +85,41 @@ h2, h3 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+#nucampWeb {
+    border-radius: 10px;
+}
+
 #nucampWeb:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /*  Skill page */
 
-.cardSkills {
-    background-color: #facd6b;
+#imgSkills {
+    width: 100%;
+    height: 80%;
+}
+
+.card-header {
+    background-color: rgb(179, 178, 178);
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 28px;
+    height: 100px;
+}
+
+.cardskills {
     height: 100%;
-    width: 80%;
-    padding: 2px 16px;
+    border-radius: 12px;
+}
+
+#skillTable {
+    border-radius: 30%;
+}
+
+.card-text {
+    color: blue;
 }
 
 #skillChart {
